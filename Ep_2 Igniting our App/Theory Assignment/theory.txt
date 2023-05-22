@@ -1,0 +1,69 @@
+🤔QUE-1 :: What is `NPM`❓
+
+    NPM is Software Package Manager.
+    all npm package are defined inside package.json file.
+    npm can Manager all the dependencies of our project.
+    npm install all dependencies of our project in one line of cli command.
+
+
+🤔QUE-2 :: What is `Parcel/Webpack`❓ Why do we need it❓
+
+    Parcel and Webpack are bundlers for javascript application.
+
+    The benefits of using a bundler like Parcel or Webpack are:
+
+    1. Code organization
+    2. Dependency management
+    3. Performance optimization :code minification, dead code elimination, and asset optimization to reduce the overall file size and improve the loading time of your application.
+    They can also split the code into chunks and enable lazy loading, which means that only the required code is loaded when needed, improving the initial page load performance.
+    4.Transpilation and asset handling
+
+
+🤔QUE-3 ::  What is `.parcel-cache`❓
+
+    The .parcel-cache directory is a folder created by Parcel, a bundling tool for web applications. It stores cached data to speed up the build process by avoiding unnecessary recompilation of code and assets.
+
+
+🤔QUE-4 ::  What is `npx`❓
+
+    npx is a handy command-line tool that allows you to run packages and executables without the need for global installations, ensuring the correct package version and facilitating the use of various tools in your development workflow.
+
+
+🤔QUE-5 :: What is difference between `dependencies` vs `devDependencies`❓
+
+    dependencies are required for the production runtime of your application, while devDependencies are used during development but are not included in the production build.
+
+
+🤔QUE-6 :: What is Tree Shaking❓
+
+    tree shaking is a powerful optimization technique that helps eliminate unused code from JavaScript bundles, resulting in smaller file sizes, improved performance, and faster load times for web applications.
+
+
+🤔QUE-7 :: What is Hot Module Replacement❓
+    
+    Hot Module Replacement (HMR) is a feature in web development tools that allows developers to make code changes and see them instantly applied in the running application without needing to reload the entire page or restart the application. It improves developer productivity by speeding up the development process and maintaining the application's state while updating only the changed modules. However, it is not meant for production use.
+
+
+🤔QUE-8 :: List down your favourite 5 superpowers of Parcel and describe any 3 of them in your own words.
+
+🤔QUE-9 :: What is `.gitignore`❓ What should we add and not add into it❓
+
+🤔QUE-10 :: What is the difference between `package.json` and `package-lock.json`❓
+
+🤔QUE-11 :: Why should I not modify `package-lock.json`❓
+
+🤔QUE-12 :: What is `node_modules`❓ Is it a good idea to push that on git❓
+
+🤔QUE-13 :: What is the `dist` folder❓
+
+🤔QUE-14 :: What is `browserlists`❓
+
+
+
+
+
+
+
+
+
+
