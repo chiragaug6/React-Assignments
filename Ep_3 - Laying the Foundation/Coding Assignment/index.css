@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  font-family: cursive;
+}
+
+#title {
+  border: 1px solid black;
+}
+
+.header {
+  background-color: cadetblue;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 70px;
+}
+
+.logo {
+  width: 60px;
+  cursor: pointer;
+}
+
+.search-bar {
+  width: 700px;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  text-align: center;
+}
