@@ -1,0 +1,111 @@
+QUE_1 :: Is JSX mandatory for React?
+
+It is a not mandatory but it's recommended Way to write components in React.
+
+you can write React components without JSX using plain JavaScript. JSX is not required for React to work, but it is recommended because it makes your code easier to understand and maintain.
+
+
+********************************************************************************************************************
+QUE_2 :: Is ES6 mandatory for React?
+
+No, ES6 (ECMAScript 2015) is not mandatory for React, but it is highly recommended and widely used in React development.
+
+Using ES6 features like arrow functions, classes, template literals, destructuring assignment, and import/export statements can improve code readability and productivity.
+
+While React can be written using older JavaScript versions, utilizing ES6 is recommended for a better development experience.
+
+
+********************************************************************************************************************
+QUE_3 :: How can I write comments in JSX?
+
+You can write comments inside {} braces.
+
+Ex. {/* This is a JSX comment */}
+
+********************************************************************************************************************
+QUE_4 :: What is <React.Fragment></React.Fragment> and <></> ?
+
+<React.Fragment></React.Fragment> and <></>  are used in JSX to group multiple element without using extra warping element in the render output.
+
+React.Fragment is component provided by React. It allows you to group elements without creating an additional DOM node in the resulting HTML.
+
+<React.Fragment> and <>...</> serve the same purpose of grouping multiple elements without introducing an extra wrapping element. The key difference is that <React.Fragment> requires importing React, while <>...</> does not
+
+
+********************************************************************************************************************
+QUE_5 :: What is Virtual DOM?
+
+the Virtual DOM is a concept used by React to make updating and rendering web pages more efficient. It's like a lightweight copy of the actual web page's structure.
+
+When a React component is rendered or updated, it creates a Virtual DOM representation. React then compares this Virtual DOM with the previous version to find the differences.
+
+Instead of directly updating the actual web page, React makes changes to the Virtual DOM. It figures out the most efficient way to update the real web page based on these changes.
+
+By using the Virtual DOM, React optimizes the update process and improves performance. It also provides a simpler way for developers to work with and manage the web page's structure.
+
+
+********************************************************************************************************************
+QUE_6 :: What is Reconciliation in React?
+
+reconciliation is the process of comparing and updating the web page efficiently when something changes in a component. It ensures that only the necessary changes are made, making React applications run smoothly.
+
+Step for Reconciliation :
+1.Virtual DOM comparison
+2.Element-level reconciliation
+3.Component re-rendering
+4.Diffing algorithm
+5.Updating the real DOM
+
+
+********************************************************************************************************************
+QUE_7 :: What is React Fiber?
+
+React Fiber is an internal reimplementation of the React reconciliation algorithm and rendering pipeline, introduced in React version 16.
+
+React Fiber is like a chef's strategy for efficiently managing orders in a busy restaurant.
+
+It breaks down tasks, handles urgent requests without disrupting the workflow, recovers from errors, and manages time effectively. 
+
+Similarly, React Fiber improves the performance and responsiveness of React applications by dividing rendering work into smaller units, prioritizing tasks, handling errors, and optimizing resource usage.
+
+
+********************************************************************************************************************
+QUE_8 :: Why we need keys in React? When do we need keys in React?
+
+keys are used to give a unique identity to each element in a list or collection of elements rendered by component. 
+
+They help React efficiently update and reconcile the components when the list changes.
+
+Benifits of using keys ::
+
+1.Efficient element identification
+
+2. Effective reconciliation: React uses keys to track changes in lists. When the list changes, React compares the new list with the previous one using keys to determine which elements are added, removed, or updated. Without keys, React may have to re-render all elements, which can be inefficient.
+
+3.Element reordering: Keys help React understand if an element has been moved within a list. By providing a consistent key, React can determine the correct order of elements and update the DOM accordingly, without unnecessarily re-rendering or manipulating elements.
+
+4.Component state preservation: Keys play a crucial role in preserving component state. When React re-renders a list, it tries to keep the state of existing elements intact. Keys help React identify which elements remain the same, allowing it to maintain their state across updates.
+
+********************************************************************************************************************
+QUE_9 :: Can we use index as keys in React?
+
+while it is possible to use the index as keys in React, it is not recommended. Using index as keys can cause issues with element order changes, performance, and component state. It's better to use stable and unique identifiers as keys for proper element identification and efficient updates.
+
+
+********************************************************************************************************************
+QUE_10 :: What is props in React? Ways to
+
+In React props means properties. It is Similer to argument/parameters in function.It is a way to pass data from a parent component to its child components
+
+ways to add props to React components:
+1.Inline props
+2.Dynamic props
+3.Spread operator
+
+It's important to note that props are read-only and should not be modified directly within the child component. They are used to provide data and configuration to components, enabling component reusability and flexibility.
+
+
+**************************************************************************************************************
+QUE_11 :: What is a Config Driven UI ?
+
+A config-driven UI means using a file to decide how a website or app looks and works instead of changing the code directly. It's like having a set of instructions that can be easily changed to control things like colors, buttons, and layouts without having to write new code. It makes it easier to customize and update the user interface without needing advanced programming skills.
