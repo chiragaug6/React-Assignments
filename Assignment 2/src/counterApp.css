@@ -1,0 +1,51 @@
+.app-wraaper {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightcoral;
+  border-radius: 10%;
+}
+
+.app {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  border-radius: 5%;
+}
+
+.main-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.counter {
+  font-size: 80px;
+  font-weight: 800;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  padding: 5px;
+  outline: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+
+.spe-btn {
+  width: 200px;
+}

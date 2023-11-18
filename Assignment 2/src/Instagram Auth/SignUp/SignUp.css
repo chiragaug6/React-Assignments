@@ -1,0 +1,55 @@
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  border-radius: 10px;
+}
+
+.instaLogo {
+  width: 200px;
+  height: 80px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-input {
+  padding: 7px;
+  width: 250px;
+  outline: none;
+}
+
+.signIn-button {
+  width: 270px;
+  height: 30px;
+  background-color: rgb(73, 73, 170);
+  color: white;
+  font-weight: 500;
+  font-size: medium;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.login-link {
+  text-decoration: none;
+  color: rgb(73, 73, 170);
+  cursor: pointer;
+}
